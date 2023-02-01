@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #eee;
+} 
+  
+.signupform, form input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signupform{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+}
+
+.signupform h1{
+    margin-bottom: 20px;
+}
+
+.signupform form .main-input{
+    width: 400px;
+    display: block;
+    padding:0  50px;
+}
+
+form .main-input input{
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+}
+
+form .main-input.signin input,.middle{
+    margin: 20px  0;
+}
+
+.checkbox{
+    cursor: pointer;
+}
+
+.tnc,.middle,.rem-me{
+    display: flex;
+    gap:2px;
+}
+
+.tnc,.middle{
+    padding:0 50px;
+}
+
+.tnc{
+    margin: 20px  0;
+}
+
+.tnc a{
+    color: rgb(90, 89, 89);
+}
+.middle{
+    justify-content: space-between;
+}
+.submit-signup{
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.image{
+    position: relative;
+   width: 400px;
+   height: 500px;
+}
+
+
+.image .goto-signin{
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   font-size: 12px;
+   font-weight: 700;
+   border-radius: 20px;
+   height: 40px;
+   width: 70px;
+   background-color: rgb(88, 88, 88);
+   color: white;
+   cursor: pointer;
+ }
+
+ .image .goto-next-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    border: 2px solid grey;
+    border-radius: 20px;
+    height: 40px;
+    width: 70px;
+    background-color: rgb(88, 88, 88);
+    color: white;
+    cursor: pointer;
+  }
+ 
+
+.image img{
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+}
+
+.forgot-password{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.forgot-password a{
+    color: black;
+    text-decoration: none;
+}
+
+.required{
+    color:red;
+}
